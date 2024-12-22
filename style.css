@@ -1,0 +1,41 @@
+
+/* Navigation styles */
+.nav-menu {
+    background-color: #4cafaf;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #2bb3ac;
+}
+
+.hero div{
+    background-image: url("https://a.storyblok.com/f/108167/1920x900/cd6ba934dc/home-page-banner.jpg/m/1920x900/filters:brightness(-7)?w=3840&q=50");
+    background-image: url("https://onenaturehotels.com/wp-content/uploads/2023/04/Blog-Fascinating-Facts-About-The-Big-Five-Of-Africa-1200x800-MAIN.webp");
+    background-size: cover; 
+    height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center; 
+}
