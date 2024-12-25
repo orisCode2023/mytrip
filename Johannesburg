@@ -7,7 +7,7 @@
       content="width=
     , initial-scale=1.0"
     />
-    <title>Cape Town</title>
+    <title>Johannesburg</title>
     <link rel="stylesheet" href="CapeTown.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -56,20 +56,14 @@
       <main>
       <figure class="gif">
         <img
-          src="https://miro.medium.com/v2/resize:fit:2700/format:webp/1*-yWyfQgrblhFhzPBbcr9cw.gif"
-          alt="gif of a view of cape town"
+        src="https://miro.medium.com/v2/resize:fit:2700/format:webp/1*BTQnOILE4Yd4OS3A1eObFQ.gif"
+          alt="gif of a view of Johannesburg"
         />
       </figure>
       <div class="main-container">
-      <h2>Discover Cape Town In 1 Minute</h2>
+      <h2>Discover Johannesburg In 1 Minute</h2>
       <section class="video-container">
-        <iframe 
-        width: 560;
-        height: 315;
-        src="https://www.youtube.com/embed/Jxl3q5qEkUY"
-          frameborder="0" 
-          allowfullscreen>
-        </iframe>
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/CXIgDF24Ro4" title="Joburg Short - the city within 1 minute" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
       <nav class="sub-nav" >
         <ul>
@@ -84,27 +78,27 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/f6/3b/99/bo-kaap.jpg?w=1800&h=1000&s=1"
-              alt="bo-kaap"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/fa/7e/c6/the-tower-of-terror-at.jpg?w=700&h=-1&s=1"
+              alt="Gold Reef"
           /></a>
-          <figcaption>Bo-Kaap</figcaption>
+          <figcaption>Gold Reef</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/79/41/05/predator-exhibit-two.jpg?w=1400&h=800&s=1"
-              alt="Two Oceans Aquarium"
+             src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/4c/64/ee/view-towards-city.jpg?w=1000&h=800&s=1"
+             alt="The Wilds Reserve"
           /></a>
-          <figcaption>Two Oceans Aquarium</figcaption>
+          <figcaption>The Wilds Reserve</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ce/3c/14/photo1jpg.jpg?w=1000&h=800&s=1"
-              alt="Boulders Beach Penguin Colony"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/4b/9a/a4/nelson-mandela-square.jpg?w=600&h=600&s=1"
+            alt="Nelson Square"
             />
           </a>
-          <figcaption>Boulders Beach Penguin Colony</figcaption>
+          <figcaption>Nelson Square</figcaption>
         </figure>
         </section>
       </section>
@@ -114,28 +108,28 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/c1/21/2f/caption.jpg?w=1200&h=-1&s=1"
-              alt="The Silo Hotel"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ed/81/b7/heated-pool-deck.jpg?w=500&h=500&s=1"
+              alt="Mount Grace"
           /></a>
-          <figcaption>The Silo Hotel</figcaption>
+          <figcaption>Mount Grace</figcaption>
         </figure>
    <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/29/8b/43/exterior-with-table-mountain.jpg?w=1200&h=800&s=1"
-              alt="The Cellars-Hohenort"
+             src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/cf/3e/e3/swimming-pool.jpg?w=500&h=500&s=1"
+             alt="Amadwala Lodge"
             />
           </a>
-          <figcaption>The Cellars-Hohenort</figcaption>
+          <figcaption>Amadwala Lodge</figcaption>
         </figure>
         <figure>
           <a href="#"
             ><img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a2/5c/6a/pool.jpg?w=1200&h=-1&s=1"
-              alt="Ellerman House"
+             src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/93/54/0d/exterior.jpg?w=500&h=500&s=1"
+             alt="Southern Sun"
             />
           </a>
-          <figcaption>Ellerman House</figcaption>
+          <figcaption>Southern Sun</figcaption>
         </figure>
       </section>
       </section>
@@ -145,17 +139,17 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9c/49/d7/14-dish-african-menu.jpg?w=1800&h=1000&s=1"
-              alt="GOLD Restaurant"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/9e/0d/59/variety.jpg?w=1200&h=-1&s=1"
+              alt="The Big Mouth"
             />
           </a>
-          <figcaption>GOLD Restaurant</figcaption>
+          <figcaption>The Big Mouth</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e8/b0/91/griller-fish-fresh-off.jpg?w=1400&h=800&s=1"
-              alt="Miller's Thumb"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/2d/6a/37/keystone-bistro.jpg?w=1200&h=-1&s=1"
+              alt="Keystone-Bistro"
             />
           </a>
           <figcaption>Miller's Thumb</figcaption>
@@ -163,11 +157,11 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/d1/48/e5/turkish-eggs.jpg?w=1400&h=800&s=1"
-              alt="Jarryds Brunch & Bistro"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/eb/ae/5d/indoor-eating.jpg?w=1200&h=-1&s=1"
+              alt="Chief's Boma"
             />
           </a>
-          <figcaption>Jarryds Brunch & Bistro</figcaption>
+          <figcaption>Chief's Boma</figcaption>
         </figure>
     </section>
       </section>
