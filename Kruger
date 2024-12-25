@@ -7,7 +7,7 @@
       content="width=
     , initial-scale=1.0"
     />
-    <title>Cape Town</title>
+    <title>Kruger</title>
     <link rel="stylesheet" href="CapeTown.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -56,20 +56,14 @@
       <main>
       <figure class="gif">
         <img
-          src="https://miro.medium.com/v2/resize:fit:2700/format:webp/1*-yWyfQgrblhFhzPBbcr9cw.gif"
-          alt="gif of a view of cape town"
+        src="https://miro.medium.com/v2/resize:fit:2700/format:webp/1*6uF4fiSKDKTuD-8EPBylrw.gif"
+          alt="image of kruger city"
         />
       </figure>
       <div class="main-container">
-      <h2>Discover Cape Town In 1 Minute</h2>
+      <h2>Discover Kruger In 1 Minute</h2>
       <section class="video-container">
-        <iframe 
-        width: 560;
-        height: 315;
-        src="https://www.youtube.com/embed/Jxl3q5qEkUY"
-          frameborder="0" 
-          allowfullscreen>
-        </iframe>
+        <embed src="https://www.youtube.com/v/8vDIyP57UxA?version=3" type="application/x-shockwave-flash" width="700" height="400">
       </section>
       <nav class="sub-nav" >
         <ul>
@@ -84,27 +78,27 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/f6/3b/99/bo-kaap.jpg?w=1800&h=1000&s=1"
-              alt="bo-kaap"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/bb/be/74/caption.jpg?w=800&h=600&s=1"
+              alt="Drakensberg Mountain"
           /></a>
-          <figcaption>Bo-Kaap</figcaption>
+          <figcaption>Drakensberg Mountain</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/79/41/05/predator-exhibit-two.jpg?w=1400&h=800&s=1"
-              alt="Two Oceans Aquarium"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/e3/db/e7/sunrise-safari.jpg?w=1000&h=800&s=1"
+              alt="sunrise-safari"
           /></a>
-          <figcaption>Two Oceans Aquarium</figcaption>
+          <figcaption>Sunrise-Safari</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ce/3c/14/photo1jpg.jpg?w=1000&h=800&s=1"
-              alt="Boulders Beach Penguin Colony"
+             src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c1/c2/c6/caption.jpg?w=800&h=600&s=1"
+             alt="Blyde River Canyon"
             />
           </a>
-          <figcaption>Boulders Beach Penguin Colony</figcaption>
+          <figcaption>Blyde River Canyon</figcaption>
         </figure>
         </section>
       </section>
@@ -114,28 +108,28 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/c1/21/2f/caption.jpg?w=1200&h=-1&s=1"
-              alt="The Silo Hotel"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/30/fd/81/hlatifula-entrance.jpg?w=500&h=500&s=1"
+              alt="Bushriver Lodge"
           /></a>
-          <figcaption>The Silo Hotel</figcaption>
+          <figcaption>Bushriver Lodge</figcaption>
         </figure>
    <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/29/8b/43/exterior-with-table-mountain.jpg?w=1200&h=800&s=1"
-              alt="The Cellars-Hohenort"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c6/22/cd/nyati-safari-lodge.jpg?w=500&h=500&s=1"
+            alt="Nyati Safari Lodge"
             />
           </a>
-          <figcaption>The Cellars-Hohenort</figcaption>
+          <figcaption>Nyati Safari Lodge</figcaption>
         </figure>
         <figure>
           <a href="#"
             ><img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a2/5c/6a/pool.jpg?w=1200&h=-1&s=1"
-              alt="Ellerman House"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/32/1b/62/adult-pool-area-outside.jpg?w=500&h=500&s=1"
+              alt="Radisson hotels"  
             />
           </a>
-          <figcaption>Ellerman House</figcaption>
+          <figcaption>Radisson hotels</figcaption>
         </figure>
       </section>
       </section>
@@ -145,29 +139,29 @@
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9c/49/d7/14-dish-african-menu.jpg?w=1800&h=1000&s=1"
-              alt="GOLD Restaurant"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/08/7c/27/dinner-service.jpg?w=1200&h=-1&s=1"
+              alt="The Kitchen"
             />
           </a>
-          <figcaption>GOLD Restaurant</figcaption>
+          <figcaption>The Kitchen</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e8/b0/91/griller-fish-fresh-off.jpg?w=1400&h=800&s=1"
-              alt="Miller's Thumb"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/ba/31/f5/champagne-buffet-breakfast.jpg?w=1200&h=800&s=1"
+              alt="Blue Mountain"
             />
           </a>
-          <figcaption>Miller's Thumb</figcaption>
+          <figcaption>Blue Mountain</figcaption>
         </figure>
         <figure>
           <a href="#">
             <img class="attraction-img"
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/d1/48/e5/turkish-eggs.jpg?w=1400&h=800&s=1"
-              alt="Jarryds Brunch & Bistro"
+             src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/14/7f/38/fried-potato-skins.jpg?w=1200&h=800&s=1"
+             alt="The Baobab"
             />
           </a>
-          <figcaption>Jarryds Brunch & Bistro</figcaption>
+          <figcaption>The Baobab</figcaption>
         </figure>
     </section>
       </section>
