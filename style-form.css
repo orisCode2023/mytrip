@@ -1,0 +1,92 @@
+/* Save this as contact-form.css */
+.contact-form-wrapper {
+    padding: 20px;
+    margin-top: 120px; /* Adjust this value based on your header height */
+    min-height: calc(100vh - 120px); /* This ensures the form takes up the remaining viewport height */
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+}
+
+.contact-form-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.travel-form-group {
+    margin-bottom: 20px;
+}
+
+.travel-form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.travel-required::after {
+    content: " *";
+    color: #ff4444;
+}
+
+.travel-form-input,
+.travel-form-select,
+.travel-form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.travel-form-input:focus,
+.travel-form-select:focus,
+.travel-form-textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76,175,80,0.2);
+}
+
+.travel-form-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.travel-form-button:hover {
+    background-color: #45a049;
+}
+
+.travel-success-message {
+    display: none;
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.travel-form-error {
+    border-color: #ff4444 !important;
+}
+
+.travel-error-message {
+    color: #ff4444;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
