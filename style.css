@@ -13,29 +13,38 @@ html {
 
 /* Updated header styles */
 .header {
-  background-image: url("https://img.freepik.com/free-vector/soft-yellow-watercolor-texture-background_1055-10236.jpg");
-  background-size: cover;
-  height: 120px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
-  height: 80px;
-  width: 100%;
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-image: url("https://img.freepik.com/free-vector/soft-yellow-watercolor-texture-background_1055-10236.jpg");
+  background-size: cover;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 100;
-  background: transparent;
   transition: all 0.3s ease;
 }
 
 .header-container {
-  width: 100%;
   height: 100%;
-  margin: 0 20px;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   display: flex;
-  gap: 10%;
+  justify-content: space-between;
   align-items: center;
 }
+
+.full-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: 0rem;
+  margin-left: 1rem;
+}
+
 
 /* Logo styles */
 .logo-link {
@@ -44,91 +53,12 @@ html {
 }
 
 
-.logo:hover {
+.full-logo-container:hover {
   transform: scale(1.02);
 }
 
 .logo-text {
   line-height: 1.2;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  text-decoration: none;
-  /* Remove underline from link */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.text-small {
-  font-size: 14px;
-  color: #515151;
-}
-
-.text-large {
-  font-size: 16px;
-  font-weight: 700;
-  color: black;
-}
-
-.text-bold {
-  font-weight: 700;
-  color: black;
-}
-
-.header-button {
-  display: inline-block;
-  padding: 6px 20px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 25px;
-  font-size: 12px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  margin-top: 4px;
-}
-
-
-.header-button:hover {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-}
-
-.header-right {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.header-image {
-  height: 56px;
-  width: auto;
-  object-fit: contain;
-}
-
-
-/* Mobile styles */
-@media (max-width: 768px) {
-  .text-small {
-    font-size: 12px;
-  }
-
-  .text-large {
-    font-size: 14px;
-  }
-
-  .header-button {
-    padding: 4px 15px;
-    font-size: 11px;
-  }
-
-  .header-image {
-    height: 40px;
-  }
 }
 
 .text-small {
@@ -144,56 +74,44 @@ html {
 
 .text-bold {
   font-weight: bold;
+  color: black;
 }
 
-@media (min-height: 100px) {
-  html:not([data-scroll='0']) .header {
-    background-image: url("https://img.freepik.com/free-vector/soft-yellow-watercolor-texture-background_1055-10236.jpg");
-    background-size: cover;
-    height: 120px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+.header-image {
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
+}
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .text-small {
+    font-size: 12px;
   }
 
-  html:not([data-scroll='0']) .nav-link {
-    color: black;
-    text-shadow: none;
+  .text-large {
+    font-size: 14px;
+  }
+
+  .header-image {
+    height: 40px;
   }
 }
 
-/* Using CSS scroll-based animation */
-@media (min-height: 100px) {
-  .header {
-    background: transparent;
-  }
 
-  .nav-link {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-}
-
+/*navigation bar*/
 .nav-list {
-  list-style: none;
   display: flex;
-  justify-content: center;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding: 0;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 40px;
-  transition: background-color 0.3s;
-}
-
-.navigation {
-  display: flex;
   list-style: none;
-  margin: 0;
 }
+
 
 .navigation li {
   margin-right: 20px;
@@ -208,12 +126,6 @@ html {
   background-color: rgba(175, 150, 81, 0.5);
 }
 
-.navigation .nav-list {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-}
-
 .nav-link {
   color: white;
   text-decoration: none;
@@ -221,48 +133,11 @@ html {
   border-radius: 40px;
   transition: all 0.3s ease;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.nav-link:hover {
-  background-color: rgba(175, 150, 81, 0.5);
+  white-space: nowrap;
 }
 
 
-/* Header and Navigation Styles */
-.header {
-  background-image: url("https://img.freepik.com/free-vector/soft-yellow-watercolor-texture-background_1055-10236.jpg");
-  background-size: cover;
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  background: transparent;
-  transition: all 0.3s ease;
-}
 
-.header-container {
-  width: 100%;
-  height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  text-decoration: none;
-}
-
-/* Hide checkbox */
-.nav-toggle {
-  display: none;
-}
 
 /* Hamburger menu styles */
 .nav-toggle-label {
@@ -272,12 +147,15 @@ html {
   padding: 1rem;
   z-index: 2;
 }
+.nav-toggle {
+  display: none;
+}
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
+  background: rgb(211, 67, 11);
   height: 2px;
   width: 2em;
   position: relative;
@@ -296,36 +174,6 @@ html {
 
 .nav-toggle-label span::after {
   top: 7px;
-}
-
-/* Navigation styles */
-.navigation {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-list {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 40px;
-  transition: all 0.3s ease;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-}
-
-.nav-link:hover {
-  background-color: rgba(175, 150, 81, 0.5);
 }
 
 /* Responsive Styles */
@@ -352,6 +200,7 @@ html {
 
   .nav-list {
     flex-direction: row;
+    width: 100%;
     padding: 1rem 0;
   }
 
@@ -376,37 +225,16 @@ html {
   .header-image {
     height: 40px;
   }
-}
-
-
-
-
-/* Media query example for smaller screens */
-@media only screen and (max-width: 768px) {
   .header-container {
-    justify-content:left;
+    justify-content: space-around;
   }
 }
 
 
 
-.card-back .overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 40%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
-}
 
-.card-back p {
-  color: white;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 0;
-}
+
+
 
 
 /*hero*/
@@ -500,7 +328,7 @@ section.video-background {
 /*brief about*/
 
 /* Brief About Section */
-.brief.about {
+.brief-about {
   padding: 5rem 2rem;
   background: linear-gradient(to bottom, #fff, #f8f9fa);
 }
@@ -776,30 +604,28 @@ section.video-background {
 }
 
 /*tetimonials*/
-/* Base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .testimonials {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 50vh;
   background: #f0f2f5;
   font-family: Arial, sans-serif;
   overflow-x: hidden;
+  padding: 4rem 1rem;  /* Add padding around the section */
+  position: relative;
 }
 
 .testimonials .first-heading {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   color: #333;
-  margin-bottom: 2rem;
-  position: absolute;
-  top: 45px;
+  margin-bottom: 3rem;
+  text-align: center;
+  width: 100%;
+  max-width: 90vh;
+  text-transform: capitalize;
 }
 
 /* Slider container and track */
@@ -859,6 +685,7 @@ section.video-background {
   overflow: hidden;
 }
 
+
 .card-front {
   text-align: center;
   background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(243, 244, 246, 0.95));
@@ -889,17 +716,6 @@ section.video-background {
   z-index: 1;
 }
 
-.card-back {
-  transform: rotateY(180deg);
-  padding: 0;
-}
-
-.card-back img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 /* Content styling */
 .testimonial-text,
 .client-info {
@@ -915,7 +731,7 @@ section.video-background {
   font-size: 0.9em;
   margin: 0 auto 15px;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;
   max-width: 85%;
@@ -938,6 +754,37 @@ section.video-background {
   color: #718096;
   font-size: 0.9em;
 }
+
+.card-back {
+  transform: rotateY(180deg);
+  padding: 0;
+}
+
+.card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-back .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 40%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.card-back p {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+
 
 /* Gradient overlays */
 .slider-container::before,
@@ -1005,6 +852,14 @@ section.video-background {
     min-width: 240px;
     height: 240px;
   }
+  .testimonials {
+    padding: 2rem 1rem; 
+  }
+
+  .testimonials .first-heading {
+    font-size: 1.5rem;  
+    margin-bottom: 2rem;  
+  }
 
   .card-front {
     padding: 30px 20px;
@@ -1012,7 +867,7 @@ section.video-background {
 
   .testimonial-text {
     font-size: 0.8em;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 6;
     line-height: 1.4;
   }
 
@@ -1023,6 +878,14 @@ section.video-background {
   .testimonial-track {
     gap: 30px;
   }
+  .card-back p {
+    font-size: 1em;  /* Smaller font size on mobile */
+    padding: 0 10px;  /* Add some padding for better spacing */
+}
+
+.card-back .overlay {
+    padding-top: 30px;  /* Reduce top padding on mobile */
+}
 }
 
 @media (max-width: 480px) {
@@ -1041,10 +904,11 @@ section.video-background {
 
   .testimonial-text {
     font-size: 0.75em;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 6;
     line-height: 1.3;
     max-width: 95%;
     margin-bottom: 10px;
+    margin-top: 15px;
   }
 
   .client-name {
@@ -1069,7 +933,7 @@ section.video-background {
 
   .testimonial-text {
     font-size: 0.7em;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 5;
   }
 }
 
@@ -1080,6 +944,8 @@ section.video-background {
   }
 }
 
+
+
 /*footer*/
 
 footer {
@@ -1087,7 +953,6 @@ footer {
   left: 0;
   right: 0;
   background: #111;
-
   height: 100%;
   width: 100%;
   padding-top: 40px;
@@ -1104,7 +969,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -1152,6 +1016,7 @@ footer {
 }
 
 .footer-nav {
+  display: flex;
   margin: 1.5rem 0;
 }
 
@@ -1181,9 +1046,6 @@ footer {
 
 
 
-
-
-
 /* Section separators */
 section {
   position: relative;
@@ -1206,14 +1068,11 @@ section::after {
 
 
 
-
-
-
 /* Home button styles */
 .home-button {
   position: fixed;
   right: 30px;
-  bottom: 30px;
+  bottom: 50px;
   width: 50px;
   height: 50px;
   background-color: rgba(233, 178, 17, 0.9);
@@ -1230,7 +1089,7 @@ section::after {
 
 .home-button:hover {
   transform: translateY(-3px);
-  background-color: rgba(233, 178, 17, 1);
+  background-color: rgb(240, 182, 9);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 

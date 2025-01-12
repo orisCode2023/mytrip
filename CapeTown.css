@@ -1,102 +1,191 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
-.container{
-    display: flex;
-   flex-direction: column;
-}
-main{
-    background-color: lightyellow;
-}
-.gif{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    margin: 0;
+* {
+    margin: 0px;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.sub-nav li{
-    color:burlywood;
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: lightyellow;
+}
+
+/*hero*/
+section.hero-section {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-section .gif {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.hero-section .gif img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.sub-nav li {
+    color: burlywood;
     margin: 0 15px;
     display: inline-block;
     justify-content: center;
-   
+
 }
-.main-container{
+
+.main-container {
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: cursive;
     font-size: xx-large;
-}
-.video-container {
-    justify-content: center;
-    align-items: center;
     padding: 20px;
-    margin: 0 auto;
-    }
-
-iframe {
-    width: 700px;
-    height: 400px;
-    border: none;
-    
 }
-img{
+
+
+/* Video Container Styles */
+.video-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-text {
+    margin: 20px;
+    padding: 20px;
+}
+
+.video-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    border: none;
 }
-ul{
-    list-style-type:none ;
-}
-.headline{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2rem;
-}
-.attractions-container {
-    flex-wrap: wrap;           
-    gap: 20px;                 
-    justify-content:center ;   
-    margin: 20px 0;            
-  }
-  
-  .attraction-img {
-    width: 280px;              
-    height: 170px;             
-    object-fit: cover;         
-    border-radius: 8px;        
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .attraction-img:hover {
-    transform: scale(1.1); 
-  }
-  figure {
-    display: inline-block;    
-    text-align: center;      
-    margin:10px;                
-  }
-  figcaption {
-    font-size: 20px;          
-    color: #555;
-    margin-top: 10px;        
-  }
-  @media (max-width:728px) {
-    iframe {
-        width: 420px;
-        height: 260px;
-        border: none;
-    }
-    .sub-nav li{
-        display: inline-block;
-        font-size: x-large;
-    }
-  }
 
+
+.main-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+    padding: 10px;
+    border: none;
+    margin: 0;
+}
+
+
+.section-container {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.section-container h3 {
+    color: #333;
+    margin: 20px 0;
+    font-family: cursive;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
+
+.attraction-img {
+    width: 280px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.attraction-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+figcaption {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .cards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    .attraction-img {
+        width: 250px;
+        height: 150px;
+    }
+
+    figcaption {
+        font-size: 18px;
+    }
+    .hero-section {
+        height: 40vh;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .welcome-text h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .attraction-img {
+        width: 100%;
+        height: 200px;
+    }
+}
